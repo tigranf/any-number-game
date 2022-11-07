@@ -286,12 +286,12 @@ body * {
 
 /* tooltip hint */
 .tooltip {
-    width: 8rem;
+    width: 10rem;
     height: 2.5rem;
     padding: 0.5rem;
     border: 1px solid #ffffff85;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 0;
     text-align: center;
     background-color: #7c9bd6fb;
     color: rgba(240, 248, 255, 0.884);
@@ -310,6 +310,7 @@ body * {
 
 .tooltip.active {
     opacity: 1;
+    font-size: 1.1rem;
     transform: translateX(0); 
     pointer-events: auto;
 }

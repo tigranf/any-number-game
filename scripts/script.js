@@ -155,16 +155,19 @@ window.addEventListener("DOMContentLoaded", () => {
             labels[i].innerText = cat1[rng].category.toUpperCase();
             category1 = cat1[rng];
             answer1 = category1.price;
+            document.querySelector('#tip1').innerText = `$  ${answer1.toString().replace(/(\d)\d*(\d)\d/g, '$1 🟦 🟦 $2 🟦')}`;
             console.log(answer1);
         } else if (i == 1) {
             labels[i].innerText = cat2[rng].category.toUpperCase();
             category2 = cat2[rng];
             answer2 = category2.price;
+            document.querySelector('#tip2').innerText = `$  ${answer2.toString().replace(/\d(\d)\d/g, ' 🟦 $1 🟦 ')}`;
             console.log(answer2);
         } else {
             labels[i].innerText = cat3[rng].category.toUpperCase();
             category3 = cat3[rng];
             answer3 = category3.price;
+            document.querySelector('#tip3').innerText = `$  🟦 🟦 `;
             console.log(answer3);
         }
         // console.dir(labels[i]);

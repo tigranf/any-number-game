@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome-animation@1.1.1/css/font-awesome-animation.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Any Number Game</title>
+  </head>
+  <body>
+    <div class="game-wrapper">
+      <div class="rules-dropdown">
+        <div class="dropdown-button">
+          GAME RULES<i
+            class="fa fa-chevron-circle-down faa-bounce faa-reverse animated"
+            aria-hidden="true"
+          ></i>
+        </div>
+        <div class="rules">
+          <p class="rule-header">Welcome to any number!</p>
+          <p class="rule">
+            Guess the price of the item hiding behind each category by dragging
+            and dropping.
+          </p>
+          <p class="rule">You must use all of the numbers.</p>
+          <p class="rule">Hit SUBMIT when you think you have it right!</p>
+          <p class="rule">Your prize will be your closest guess!</p>
+          <p class="rule-end">Good Luck!</p>
+        </div>
+        <div class="round">Round <span id="round-num">#</span></div>
+      </div>
+      <h1>any number</h1>
+      <!-- <h3>Made famous by The Price Is Right</h3> -->
+      <div class="nums container">
+        <div class="draggable" id="num-0" draggable="true">0</div>
+        <div class="draggable" id="num-1" draggable="true">1</div>
+        <div class="draggable" id="num-2" draggable="true">2</div>
+        <div class="draggable" id="num-3" draggable="true">3</div>
+        <div class="draggable" id="num-4" draggable="true">4</div>
+        <div class="draggable" id="num-5" draggable="true">5</div>
+        <div class="draggable" id="num-6" draggable="true">6</div>
+        <div class="draggable" id="num-7" draggable="true">7</div>
+        <div class="draggable" id="num-8" draggable="true">8</div>
+        <div class="draggable" id="num-9" draggable="true">9</div>
+      </div>
+      <div class="items container">
+        <div class="labels col">
+          <div class="label row"></div>
+          <div class="label row"></div>
+          <div class="label row"></div>
+        </div>
+        <div class="dollars col">
+          <div class="dollar">
+            <i class="fa fa-dollar faa-burst animated faa-fast"></i>
+          </div>
+          <div class="dollar">
+            <i class="fa fa-dollar faa-burst animated"></i>
+          </div>
+          <div class="dollar">
+            <i class="fa fa-dollar faa-burst animated faa-slow"></i>
+          </div>
+        </div>
+        <div class="drop-area col">
+          <div class="dropzone row" id="drop-1"></div>
+          <div class="dropzone row" id="drop-2"></div>
+          <div class="dropzone row" id="drop-3"></div>
+        </div>
+      </div>
+      <div class="submit-area">
+        <div id="submitBtn">
+          <button class="hidden" data-modal-target="#modal" id="confetti">SUBMIT</button>
+        </div>
+        <div class="modal" id="modal">
+          <div class="modal-header">
+            <div class="spacer"></div>
+            <div class="title">WINNINGS!</div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+        <div id="overlay"></div>
+      </div>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

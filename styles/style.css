@@ -1,3 +1,5 @@
+/* Main Styles */
+
 html,
 body {
     padding: 0;
@@ -28,10 +30,8 @@ body::before {
     position: fixed;
     top: 0;
     left: 0;
-    background: radial-gradient(
-        rgba(0, 0, 0, 0.1) 8%,
-        transparent 8%
-    );
+    background: radial-gradient(rgba(0, 0, 0, 0.1) 8%,
+            transparent 8%);
     width: 100vw;
     height: 100vh;
     background-position: 0% 0%;
@@ -44,8 +44,10 @@ body * {
     box-sizing: inherit;
 }
 
+/* Modifier Styles */
+
 .hidden {
-    display: none!important;
+    display: none !important;
 }
 
 .enhanced-blue {
@@ -56,6 +58,7 @@ body * {
     color: #6359ee;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
 }
+
 .enhanced-red {
     font-style: italic;
     font-size: 3rem;
@@ -64,6 +67,7 @@ body * {
     color: #e73c7e;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
 }
+
 .enhanced-green {
     font-style: italic;
     font-size: 3rem;
@@ -72,6 +76,8 @@ body * {
     color: #23d5ab;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
 }
+
+/* Wrapper */
 
 .game-wrapper {
     display: flex;
@@ -86,6 +92,8 @@ body * {
     max-height: 40rem;
     background: linear-gradient(to top, #ff00ff, #8000ff, #0080ff);
 }
+
+/* Game Rules Dropdown */
 
 .rules-dropdown {
     position: relative;
@@ -180,6 +188,7 @@ body * {
     -webkit-text-stroke: 1px aliceblue;
 }
 
+/* todo: Round Number */
 .round {
     align-self: flex-end;
     margin-right: 2rem;
@@ -189,6 +198,8 @@ body * {
 #round-num {
     font-size: 1.6rem;
 }
+
+/* Game Title */
 
 .game-wrapper h1 {
     font-style: italic;
@@ -205,6 +216,8 @@ body * {
     -webkit-text-stroke: 1px #8000ffd7;
     filter: invert();
 }
+
+/* Draggables */
 
 .nums.container {
     display: flex;
@@ -232,6 +245,8 @@ body * {
     outline: 1px solid #000000;
     filter: drop-shadow(0 0 0.75rem #000000) invert() opacity(33%);
 }
+
+/* Game Board Wrapper */
 
 .items {
     width: 26vw;
@@ -317,7 +332,7 @@ body * {
 .tooltip.active {
     opacity: 1;
     font-size: 1.1rem;
-    transform: translateX(0); 
+    transform: translateX(0);
     pointer-events: auto;
 }
 
@@ -352,6 +367,8 @@ body * {
     gap: 0.5rem;
 }
 
+/* Submit Wrapper */
+
 .submit-area {
     display: flex;
     justify-content: center;
@@ -378,7 +395,7 @@ body * {
     box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
-/** Modal */
+/* Modal */
 
 .modal {
     position: fixed;
@@ -459,7 +476,7 @@ body * {
     margin-right: 2rem;
 }
 
-/** Animation */
+/** Animations */
 
 @keyframes gradient {
     0% {

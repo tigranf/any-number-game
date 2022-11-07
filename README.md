@@ -12,4 +12,6 @@ A short and sweet JavaScript project created to practice with event listeners, m
 
 ![image](https://user-images.githubusercontent.com/2569742/200364769-e0960433-f63b-4fb2-b2a7-2c351cd02799.png)
 
+![image](https://user-images.githubusercontent.com/2569742/200397408-8bc9a5a0-9b08-4c2c-aebc-79b7cee193b8.png)
+
 ![image](https://user-images.githubusercontent.com/2569742/200364625-f1f3cecb-c26e-4f24-aae9-0ae9ce68f9b9.png)

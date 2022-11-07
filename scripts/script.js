@@ -28,44 +28,44 @@ const cat1 = [
         title: '2022 Crimson Honda Insight',
         img: 'https://www.kindpng.com/picc/m/91-919390_honda-civic-2016-png-transparent-png.png',
         category: 'Car',
-        price: 21580
+        price: 25760
     },
     {
         // index: 3,
         title: '2022 Blue KIA Stinger',
         img: 'https://www.kindpng.com/picc/m/376-3767115_new-2019-kia-stinger-gt-kia-stinger-2019.png',
         category: 'Car',
-        price: 53760
+        price: 51760
     },
     {
         // index: 6,
         title: '2022 White Toyota 4Runner',
         img: "https://www.kindpng.com/picc/m/471-4718270_4runner-toyota-4runner-2018-canada-hd-png-download.png",
         category: 'Car',
-        price: 45670
+        price: 38705
     },
 ];
 const cat2 = [
     {
         // index: 1,
-        title: '55" Samsung Television',
+        title: '55" UHD 4K Samsung Smart TV',
         img: 'https://www.kindpng.com/picc/m/175-1755353_samsung-tv-png-samsung-qled-tv-55-inch.png',
         category: 'TV',
-        price: 769
+        price: 369
     },
     {
         // index: 4,
-        title: 'ASUS Gaming Laptop',
+        title: '15" ASUS ROG Gaming Laptop',
         img: 'https://www.kindpng.com/picc/m/45-450523_asus-gaming-laptop-png-transparent-png.png',
         category: 'PC',
-        price: 921
+        price: 980
     },
     {
         // index: 7,
-        title: 'Google Pixel Phone',
+        title: 'Google Pixel 6a Phone',
         img: 'https://www.kindpng.com/picc/m/8-85642_googles-android-enterprise-recommended-program-hd-png-download.png',
         category: 'Phone',
-        price: 329
+        price: 439
     },
 ];
 const cat3 =[    
@@ -74,21 +74,21 @@ const cat3 =[
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
-        price: 43
+        price: 40
     },    
     {
         // index: 5,
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
-        price: 84
+        price: 80
     },
     {
         // index: 8,
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
-        price: 13
+        price: 10
     },
 ];
 

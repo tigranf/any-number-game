@@ -161,7 +161,7 @@ window.addEventListener("DOMContentLoaded", () => {
             labels[i].innerText = cat2[rng].category.toUpperCase();
             category2 = cat2[rng];
             answer2 = category2.price;
-            document.querySelector('#tip2').innerText = `$  ${answer2.toString().replace(/\d(\d)\d/g, ' 🟦 $1 🟦 ')}`;
+            document.querySelector('#tip2').innerText = `$  ${answer2.toString().replace(/(\d)\d\d/g, ' $1 🟦 🟦 ')}`;
             console.log(answer2);
         } else {
             labels[i].innerText = cat3[rng].category.toUpperCase();

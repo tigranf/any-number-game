@@ -24,71 +24,98 @@ const modalBody = document.querySelector('.modal-body');
 
 const cat1 = [
     {
-        // index: 0,
         title: '2022 Crimson Honda Insight',
         img: 'https://www.kindpng.com/picc/m/91-919390_honda-civic-2016-png-transparent-png.png',
         category: 'Car',
         price: 25760
     },
     {
-        // index: 3,
         title: '2022 Blue KIA Stinger',
         img: 'https://www.kindpng.com/picc/m/376-3767115_new-2019-kia-stinger-gt-kia-stinger-2019.png',
         category: 'Car',
         price: 51760
     },
     {
-        // index: 6,
         title: '2022 White Toyota 4Runner',
         img: "https://www.kindpng.com/picc/m/471-4718270_4runner-toyota-4runner-2018-canada-hd-png-download.png",
         category: 'Car',
         price: 38705
     },
+    {
+        title: '2021 Chaparral Boats SSI',
+        img: "https://www.kindpng.com/picc/m/44-445904_2020-chaparral-boats-hd-png-download.png",
+        category: 'Boat',
+        price: 34910
+    },
+    {
+        title: '2019 Malibu M235',
+        img: "https://www.kindpng.com/picc/m/108-1083561_malibu-m235-in-charleston-tennessee-malibu-boats-hd.png",
+        category: 'Boat',
+        price: 98760
+    },
 ];
 const cat2 = [
     {
-        // index: 1,
         title: '55" UHD 4K Samsung Smart TV',
         img: 'https://www.kindpng.com/picc/m/175-1755353_samsung-tv-png-samsung-qled-tv-55-inch.png',
         category: 'TV',
         price: 469
     },
     {
-        // index: 4,
         title: '15" ASUS ROG Gaming Laptop',
         img: 'https://www.kindpng.com/picc/m/45-450523_asus-gaming-laptop-png-transparent-png.png',
-        category: 'PC',
+        category: 'Laptop',
         price: 980
     },
     {
-        // index: 7,
         title: 'Google Pixel 6a Phone',
         img: 'https://www.kindpng.com/picc/m/8-85642_googles-android-enterprise-recommended-program-hd-png-download.png',
         category: 'Phone',
         price: 439
     },
+    {
+        title: '2022 iPad Air',
+        img: "https://www.kindpng.com/picc/m/57-572657_experia-tablet-png-image-sony-xperia-tablet-z.png",
+        category: 'Tablet',
+        price: 598
+    },
+    {
+        title: 'MSI Gaming PC Bundle',
+        img: "https://www.kindpng.com/picc/m/114-1141618_computer-pc-png-gaming-pc-companies-transparent-png.png",
+        category: 'PC',
+        price: 759
+    },
 ];
 const cat3 =[    
     {
-        // index: 2,
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
         price: 40
     },    
     {
-        // index: 5,
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
         price: 80
     },
     {
-        // index: 8,
         title: 'Free Money',
         img: './assets/cash.png',
         category: 'Cash',
         price: 10
+    },
+    {
+        title: 'Free Money',
+        img: './assets/cash.png',
+        category: 'Cash',
+        price: 90
+    },
+    {
+        title: 'Free Money',
+        img: './assets/cash.png',
+        category: 'Cash',
+        price: 60
     },
 ];
 
@@ -150,7 +177,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
     // populate labels on page load
     for(let i=0; i<labels.length; i++) {
-        let rng = Math.floor(Math.random()*3);
+        let rng = Math.floor(Math.random()*5);
         if (i == 0) {
             labels[i].innerText = cat1[rng].category.toUpperCase();
             category1 = cat1[rng];

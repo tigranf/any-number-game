@@ -51,7 +51,7 @@ const cat2 = [
         title: '55" UHD 4K Samsung Smart TV',
         img: 'https://www.kindpng.com/picc/m/175-1755353_samsung-tv-png-samsung-qled-tv-55-inch.png',
         category: 'TV',
-        price: 369
+        price: 469
     },
     {
         // index: 4,

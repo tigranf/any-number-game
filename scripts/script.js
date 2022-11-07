@@ -75,7 +75,7 @@ const cat2 = [
     },
     {
         title: '2022 iPad Air',
-        img: "https://www.kindpng.com/picc/m/57-572657_experia-tablet-png-image-sony-xperia-tablet-z.png",
+        img: "https://www.kindpng.com/picc/m/18-180081_ipad-png-transparent-picture-ipad-air-2-black.png",
         category: 'Tablet',
         price: 598
     },

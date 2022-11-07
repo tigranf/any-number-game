@@ -214,20 +214,21 @@ body * {
 }
 
 .draggable {
-    border: 1px solid #2b252e33;
+    border: 1px solid #c0a4ce33;
     border-radius: 4px;
     padding: 1rem;
-    background: linear-gradient(to right, transparent, #6494edd2, #6494ede8, #6494edd2, transparent);
-    box-shadow: 4px 4px 10px #0000003a;
+    background: linear-gradient(to right, transparent, #6494edd2, #6494ede8, #6494ede8, #6494ede8, #6494edd2, transparent);
+    box-shadow: 0 0 6px 1px #ffffff6e;
     color: #ccdeff;
+    font-size: 1.1rem;
     font-weight: bold;
     cursor: grab;
     max-width: 50px;
     max-height: 80px;
-    outline-offset: 4px;
 }
 
 .dragging {
+    outline-offset: 2px;
     outline: 1px solid #000000;
     filter: drop-shadow(0 0 0.75rem #000000) invert() opacity(33%);
 }

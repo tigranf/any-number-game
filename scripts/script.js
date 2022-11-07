@@ -117,27 +117,30 @@ function closeModal(modal) {
     if (modal == null) return;
     modal.classList.remove('active');
     overlay.classList.remove('active');
-    window.location.href=window.location.href
+    window.location.href=window.location.href;
 }
 
 
 // * Event handlers
 
 window.addEventListener("DOMContentLoaded", () => {
+    let category1;
+    let category2;
+    let category3;
     let answer1;
     let answer2;
     let answer3;
     let answers = [];
     let differences = [];
-    let category1;
-    let category2;
-    let category3;
     let prize;
 
-    // todo: should check number of children in each dropzone
+    // check number of children in each dropzone & show submit button
     setInterval(() => {
-        let remaining = document.querySelectorAll('.nums .draggable');
-        if (remaining.length == 0) {
+        let dropped1 = document.querySelector('#drop-1').childElementCount;
+        let dropped2 = document.querySelector('#drop-2').childElementCount;
+        let dropped3 = document.querySelector('#drop-3').childElementCount;
+        // console.log(dropped1, dropped2, dropped3);
+        if (dropped1 == 5 && dropped2 == 3 && dropped3 == 2) {
             openModalButton.classList.remove('hidden');
         }
     }, 1000);

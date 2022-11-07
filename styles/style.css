@@ -23,6 +23,23 @@ body {
     font-feature-settings: "liga"on;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.1) 8%,
+        transparent 8%
+    );
+    width: 100vw;
+    height: 100vh;
+    background-position: 0% 0%;
+    background-size: 5vmin 5vmin;
+    z-index: -1;
+    animation: gradient2 15s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+
 body * {
     box-sizing: inherit;
 }
@@ -64,7 +81,7 @@ body * {
     min-width: 67rem;
     min-height: 36rem;
     max-height: 40rem;
-    background: linear-gradient(to top, #ff00ffb6, #8000ffb2, #0080ff67);
+    background: linear-gradient(to top, #ff00ff, #8000ff, #0080ff);
 }
 
 .rules-dropdown {
@@ -411,5 +428,19 @@ body * {
 
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient2 {
+    0% {
+        background-position: 0% 25%;
+    }
+
+    50% {
+        background-position: 100% 75%;
+    }
+
+    100% {
+        background-position: 0% 25%;
     }
 }

@@ -177,7 +177,7 @@ window.addEventListener("DOMContentLoaded", () => {
     dropdownBtn.addEventListener("mouseenter", e => {
         setTimeout(() => {
             rules.classList.add('active');
-        }, 50);
+        }, 70);
     });
     dropdownBtn.addEventListener("mouseleave", e => {
         rules.classList.remove('active');
@@ -187,7 +187,7 @@ window.addEventListener("DOMContentLoaded", () => {
     label1.addEventListener("mouseenter", e => {
         setTimeout(() => {
             document.querySelector('#tip1').classList.add('active');
-        }, 50);
+        }, 70);
     });
     label1.addEventListener("mouseleave", e => {
         document.querySelector('#tip1').classList.remove('active');
@@ -195,7 +195,7 @@ window.addEventListener("DOMContentLoaded", () => {
     label2.addEventListener("mouseenter", e => {
         setTimeout(() => {
             document.querySelector('#tip2').classList.add('active');
-        }, 50);
+        }, 70);
     });
     label2.addEventListener("mouseleave", e => {
         document.querySelector('#tip2').classList.remove('active');
@@ -203,7 +203,7 @@ window.addEventListener("DOMContentLoaded", () => {
     label3.addEventListener("mouseenter", e => {
         setTimeout(() => {
             document.querySelector('#tip3').classList.add('active');
-        }, 50);
+        }, 70);
     });
     label3.addEventListener("mouseleave", e => {
         document.querySelector('#tip3').classList.remove('active');

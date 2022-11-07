@@ -51,13 +51,15 @@ body * {
 .enhanced-blue {
     font-style: italic;
     font-size: 3rem;
+    /* font-weight: bold; */
     display: contents;
-    color: #23a6d5;
+    color: #6359ee;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
 }
 .enhanced-red {
     font-style: italic;
     font-size: 3rem;
+    /* font-weight: bold; */
     display: contents;
     color: #e73c7e;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
@@ -65,6 +67,7 @@ body * {
 .enhanced-green {
     font-style: italic;
     font-size: 3rem;
+    /* font-weight: bold; */
     display: contents;
     color: #23d5ab;
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
@@ -96,7 +99,7 @@ body * {
     width: 11.5rem;
     height: 4rem;
     border-radius: 1rem;
-    border-color: #808080ef;
+    border: 1px solid #80ff003a;
     background-color: cornflowerblue;
     font-size: 1.2rem;
     font-weight: bold;
@@ -112,6 +115,7 @@ body * {
 
 .dropdown-button:hover {
     color: aliceblue;
+    border: 1px solid #80ff009d;
     box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
@@ -159,7 +163,7 @@ body * {
 .rule-header {
     font-size: 3rem;
     font-weight: bold;
-    color: #2313ff88;
+    color: #b7dcfc;
     border-bottom: 1px solid #adadadde;
     -webkit-text-stroke: 1px aliceblue;
 }
@@ -170,7 +174,7 @@ body * {
 }
 
 .rule-end {
-    color: #2313ff88;
+    color: #b7dcfc;
     font-size: 3rem;
     font-weight: bold;
     -webkit-text-stroke: 1px aliceblue;
@@ -198,7 +202,7 @@ body * {
     animation: gradient 15s ease infinite;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-stroke: 1px #ffffff77;
+    -webkit-text-stroke: 1px #8000ffd7;
     filter: invert();
 }
 
@@ -292,6 +296,7 @@ body * {
     border: 1px solid #ffffff85;
     border-radius: 8px;
     font-size: 0;
+    font-weight: 700;
     text-align: center;
     background-color: #7c9bd6fb;
     color: rgba(240, 248, 255, 0.884);
@@ -305,7 +310,7 @@ body * {
     opacity: 0;
     pointer-events: none;
     transform: translateX(10rem);
-    transition: all 200ms ease-in-out;
+    transition: all 240ms ease-in-out;
 }
 
 .tooltip.active {

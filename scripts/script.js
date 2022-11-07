@@ -8,6 +8,9 @@ const rules = document.querySelector('.rules');
 const draggables = document.querySelectorAll('.draggable');
 const containers = document.querySelectorAll('.dropzone');
 const labels = document.querySelectorAll('.label.row');
+const label1 = document.querySelector('#label-1');
+const label2 = document.querySelector('#label-2');
+const label3 = document.querySelector('#label-3');
 
 const dropzone1 = document.querySelector('#drop-1');
 const dropzone2 = document.querySelector('#drop-2');
@@ -172,11 +175,35 @@ window.addEventListener("DOMContentLoaded", () => {
         setTimeout(() => {
             rules.classList.add('active');
         }, 50);
-        // console.log('dropdown!!!');
     });
     dropdownBtn.addEventListener("mouseleave", e => {
         rules.classList.remove('active');
-        // console.log('OUT!!!');
+    });
+
+    // tooltip listener
+    label1.addEventListener("mouseenter", e => {
+        setTimeout(() => {
+            document.querySelector('#tip1').classList.add('active');
+        }, 50);
+    });
+    label1.addEventListener("mouseleave", e => {
+        document.querySelector('#tip1').classList.remove('active');
+    });
+    label2.addEventListener("mouseenter", e => {
+        setTimeout(() => {
+            document.querySelector('#tip2').classList.add('active');
+        }, 50);
+    });
+    label2.addEventListener("mouseleave", e => {
+        document.querySelector('#tip2').classList.remove('active');
+    });
+    label3.addEventListener("mouseenter", e => {
+        setTimeout(() => {
+            document.querySelector('#tip3').classList.add('active');
+        }, 50);
+    });
+    label3.addEventListener("mouseleave", e => {
+        document.querySelector('#tip3').classList.remove('active');
     });
     
     // handles css changes for dragged elements

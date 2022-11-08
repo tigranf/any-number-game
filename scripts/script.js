@@ -126,8 +126,7 @@ function getDragAfterElement(container, mouseX) {
 
     return draggableElements.reduce((closest, child) => {
         const box = child.getBoundingClientRect();
-        const offset = mouseX - box.left - box.width / 1.618;
-        // console.log(offset);
+        const offset = mouseX - box.left - box.width / 2;
         if (offset < 0 && offset > closest.offset) {
             return { offset: offset, element: child };
         } else {

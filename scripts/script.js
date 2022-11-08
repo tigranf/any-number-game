@@ -201,38 +201,38 @@ window.addEventListener("DOMContentLoaded", () => {
     }
 
     // game rules dropdown
-    dropdownBtn.addEventListener("mouseenter", e => {
+    dropdownBtn.addEventListener("mouseover", e => {
         setTimeout(() => {
             rules.classList.add('active');
-        }, 70);
+        }, 30);
     });
-    dropdownBtn.addEventListener("mouseleave", e => {
+    dropdownBtn.addEventListener("mouseout", e => {
         rules.classList.remove('active');
     });
 
     // tooltip listener
-    label1.addEventListener("mouseenter", e => {
+    label1.addEventListener("mouseover", e => {
         setTimeout(() => {
             document.querySelector('#tip1').classList.add('active');
-        }, 70);
+        }, 30);
     });
-    label1.addEventListener("mouseleave", e => {
+    label1.addEventListener("mouseout", e => {
         document.querySelector('#tip1').classList.remove('active');
     });
-    label2.addEventListener("mouseenter", e => {
+    label2.addEventListener("mouseover", e => {
         setTimeout(() => {
             document.querySelector('#tip2').classList.add('active');
-        }, 70);
+        }, 30);
     });
-    label2.addEventListener("mouseleave", e => {
+    label2.addEventListener("mouseout", e => {
         document.querySelector('#tip2').classList.remove('active');
     });
-    label3.addEventListener("mouseenter", e => {
+    label3.addEventListener("mouseover", e => {
         setTimeout(() => {
             document.querySelector('#tip3').classList.add('active');
-        }, 70);
+        }, 30);
     });
-    label3.addEventListener("mouseleave", e => {
+    label3.addEventListener("mouseout", e => {
         document.querySelector('#tip3').classList.remove('active');
     });
 

@@ -121,7 +121,6 @@ const cat3 = [
 
 
 // * Functions
-
 function getDragAfterElement(container, mouseX) {
     const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')];
 
@@ -152,7 +151,6 @@ function closeModal(modal) {
 
 
 // * Event handlers
-
 window.addEventListener("DOMContentLoaded", () => {
     let category1;
     let category2;

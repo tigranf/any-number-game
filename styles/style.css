@@ -1,4 +1,4 @@
-/* Main Styles */
+/** Main Styles */
 
 html,
 body {
@@ -44,7 +44,7 @@ body * {
     box-sizing: inherit;
 }
 
-/* Modifier Styles */
+/** Modifier Styles */
 
 .hidden {
     display: none !important;
@@ -77,7 +77,7 @@ body * {
     text-shadow: 0 1px 3px #000000b6, 0 1px 2px #00000081;
 }
 
-/* Wrapper */
+/** Wrapper */
 
 .game-wrapper {
     display: flex;
@@ -93,7 +93,7 @@ body * {
     background: linear-gradient(to top, #ff00ff, #8000ff, #0080ff);
 }
 
-/* Game Rules Dropdown */
+/** Game Rules Dropdown */
 
 .rules-dropdown {
     position: relative;
@@ -199,7 +199,7 @@ body * {
     font-size: 1.6rem;
 }
 
-/* Game Title */
+/** Game Title */
 
 .game-wrapper h1 {
     font-style: italic;
@@ -217,7 +217,7 @@ body * {
     filter: invert();
 }
 
-/* Draggables */
+/** Draggables */
 
 .nums.container {
     display: flex;
@@ -246,7 +246,7 @@ body * {
     filter: drop-shadow(0 0 0.75rem #000000) invert() opacity(33%);
 }
 
-/* Game Board Wrapper */
+/** Game Board Wrapper */
 
 .items {
     width: 26vw;
@@ -367,7 +367,7 @@ body * {
     gap: 0.5rem;
 }
 
-/* Submit Wrapper */
+/** Submit Wrapper */
 
 .submit-area {
     display: flex;
@@ -395,7 +395,7 @@ body * {
     box-shadow: 0 14px 28px #00000040, 0 10px 10px #00000038;
 }
 
-/* Modal */
+/** Modal */
 
 .modal {
     position: fixed;

@@ -1,6 +1,22 @@
-# any number Game
+# Any Number Mini-Game
 
-A short and sweet JavaScript project created to practice with event listeners, modals, and dropdowns.
+## Introduction
+This is a JavaScript focused drag & drop web game inspired by The Price is Right. It features custom drag & drop functionality, modal, drop-down, tooltips, CSS animations, and design developed using HTML, CSS, and JavaScript ES6. 
+
+## Built With
+- HTML
+- CSS
+- JavaScript ES6
+
+## Author
+- Tigran Farmanyan
+
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgments
+- The Price is Right
+- DigitalCrafts Coding Bootcamp
 
 ## Screenshots
 

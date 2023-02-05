@@ -21,8 +21,8 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: "liga"on;
-    font-feature-settings: "liga"on;
+    -moz-font-feature-settings: "liga on";
+    font-feature-settings: "liga on";
 }
 
 body::before {
@@ -222,6 +222,8 @@ body * {
 .nums.container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
     margin-bottom: 1.6rem;
 }
